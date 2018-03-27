@@ -21,11 +21,11 @@ If the length is
 The addresses are stored in binary values in network byte order.
 
 # Examples
-
+```
 190103 44c00a0a01     --> IPv4 address 192.10.10.1
 190103 460123456789ab --> MAC address 01:23:45:67:89:ab
 190103 5420010db885a3000000008a2e03707334 --> IPv6 address 2001:db8:85a3::8a2e:370:7334
-
+```
 # References
 
 [1] C. Bormann, and P. Hoffman. "Concise Binary Object Representation (CBOR)". RFC 7049, October 2013.
