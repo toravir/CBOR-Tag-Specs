@@ -14,9 +14,12 @@ Network Addresses include IPv4 Address, IPv6 Address and MAC Address.
 Tag 260 can be applied to a byte string (major type 2) to indicate that the byte string is 
 IPv4 or IPv6 or MAC Address. The length of the byte string indicates the content. 
 If the length is
+
  4 bytes => IPv4 Address
+
 16 bytes => IPv6 Address
- 6 bytes => MAC  Address
+
+6 bytes => MAC  Address
 
 The addresses are stored in binary values in network byte order.
 
